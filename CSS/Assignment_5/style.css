@@ -1,0 +1,364 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+    color: aliceblue;
+}
+
+#top {
+    width: 100%;
+    height: 110vh;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(Images/bg_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: rgb(0, 0, 0); */
+    text-align: center;
+}
+
+nav {
+    color: aqua;
+    display: inline-block;
+    width: 90%;
+    height: 25vh;
+
+}
+
+ul,
+li,
+h1 {
+    display: inline-block;
+    margin: 22px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#logo {
+    color: #5eff00;
+    width: 20%;
+    font-size: 32px;
+}
+
+#logo:hover {
+
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+
+li:hover {
+    border: none;
+    border-left: 2px solid rgb(255, 238, 0);
+    border-top: 2px solid rgb(255, 238, 0);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+ul {
+    width: 50%;
+    margin: 50px;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 238, 0);
+}
+
+#contact-us {
+    margin-left: 22px;
+    width: 10%;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    height: 30px;
+    border-radius: 15px;
+    font-size: large;
+    cursor: pointer;
+
+}
+
+#contact-us:hover {
+    background-color: transparent;
+    color: rgb(255, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+}
+
+#text {
+    margin: auto;
+    width: 25%;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+#text>p {
+    width: 100%;
+    font-size: 16px;
+    margin-top: -20px;
+    color: rgb(94, 162, 250);
+}
+
+#color1 {
+    width: 100%;
+    border-radius: 15px;
+    color: rgb(243, 132, 243);
+    font-size: 50px;
+}
+
+#color2 {
+    display: block;
+    width: 100%;
+}
+
+.cities {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid rgb(255, 238, 0);
+    border-radius: 15px;
+    background: none;
+    color: aqua;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.cities:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 238, 0);
+    border: 2px solid rgb(255, 238, 0);
+    cursor: pointer;
+    padding: 5px;
+}
+
+#menu {
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 80px;
+    width: 100%;
+    height: 100vh;
+    color: blue;
+    background-color: beige;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 50px;
+    color: #5eff00;
+}
+
+#pic {
+    width: 70%;
+    margin: auto;
+    position: relative;
+    background-color: aliceblue;
+}
+
+#pic1 {
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    left: 5vh;
+    border-radius: 30px;
+}
+
+#pic2 {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 35vh;
+    right: 12vh;
+    border-radius: 25px;
+
+}
+
+#pic3 {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    left: 22vh;
+    border-radius: 15px;
+    top: 57vh;
+}
+
+#pic4 {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 5vh;
+    right: 18vh;
+    border-radius: 15px;
+}
+
+
+#icon1 {
+    display: inline-block;
+    bottom: 50px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    color: antiquewhite;
+}
+
+#icon2 {
+    display: inline-block;
+    bottom: 50px;
+    right: 70px;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+}
+
+#icon3 {
+    display: inline-block;
+    bottom: 50px;
+    right: 120px;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+}
+
+#icon4 {
+    display: inline-block;
+    bottom: 50px;
+    right: 170px;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+}
+
+
+#chefs {
+    width: 98.5%;
+    height: 110vh;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(196, 246, 255);
+    color: rgb(0, 0, 0);
+}
+
+#cards {
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.card {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#chefs p {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#footer {
+    height: 80vh;
+}
+
+#form {
+    display: inline-block;
+    width: 37%;
+    margin-top: 20vh;
+    margin-left: -80px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.block {
+    display: block;
+    width: 70%;
+    padding: 10px;
+    background-color: transparent;
+
+}
+
+input,
+textarea {
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+}
+
+#submit {
+    width: 38%;
+    margin-left: 25vh;
+    margin-top: 40px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: transparent;
+    color: rgb(255, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+}
+
+#footer img {
+    display: inline-block;
+    margin-top: 20px;
+    width: 280px;
+    height: 350px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+
+#footer p {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 600px) {
+    #top {
+        height: auto;
+        padding: 20px;
+    }
+
+    #text {
+        font-size: 20px;
+    }
+
+    #color1 {
+        font-size: 30px;
+    }
+
+    #color2 {
+        font-size: 20px;
+    }
+
+    .cities {
+        width: 100%;
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    #footer img {
+        width: 100%;
+        height: auto;
+    }
+
+    #footer p {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,69 @@
+body{
+    background-image: url('/images/download.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#form {
+    background-color: grey;
+    color: aliceblue;
+    padding: 25px;
+    font-size: large;
+    border-radius: 15px;
+    width: 25%;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 13px 13px 15px rgba(38, 0, 255, 0.2);
+}
+
+.input{
+    width: 100%;
+    height: 25px;
+    background-color: grey;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid aliceblue;
+    font-size: 18px;
+    color: blue;
+}
+
+textarea{
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid aliceblue;
+}
+
+.input::placeholder{
+    background-color: darkgrey;
+}
+
+.button{
+    margin-right:-70px;
+    margin-left: 100px;
+    border: none;
+}
+
+#submit{
+    background-color:rgb(57, 57, 228) ;
+    color: aliceblue;
+    height: 35px;
+
+}
+
+#submit:hover{
+    cursor:pointer;
+}
+
+#cancel{
+    background-color: rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0);
+    height: 35px;
+}
+
+#cancel:hover{
+    cursor:pointer;
+}

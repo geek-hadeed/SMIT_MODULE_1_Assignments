@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0" />
+  <title>Form And Table</title>
+</head>
+
+<body>
+  <CENter>
+    <h1> Form </h1>
+  </CENter>
+
+  <table bgcolor="#6B5ACD" align="center" style="padding:20px;">
+    <form action="#">
+      <tr height="30px">
+        <td>
+          <label for="fname"><b>First Name</b></label>
+        </td>
+        <td>&nbsp;&nbsp; <input type="text" name="fname" id="fname" maxlength="30" placeholder="Hadeed" required /> (max
+          30
+          characters from a-z
+          and A-Z)</td>
+      </tr>
+
+      <tr height="30px">
+        <td>
+          <label for="lname"><b>Last Name</b></label>
+        </td>
+        <td>&nbsp;&nbsp; <input type="text" name="lname" id="lname" maxlength="30" placeholder="Hussain" required />
+          (max 30
+          characters from a-z
+          and A-Z)</td>
+      </tr>
+
+      <tr height="30px">
+        <td>
+          <label for="dob"><b>DATE OF BIRTH</b></label>
+        </td>
+        <td>
+          &nbsp;&nbsp;
+          <select name="dob_day" id="dob_day" required>
+            <option value="">Day</option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
+
+          <select name="dob_month" id="dob_month" required>
+            <option value="">Month</option>
+            <option value="01">January</option>
+            <option value="02">February</option>
+            <option value="03">March</option>
+            <option value="04">April</option>
+            <option value="05">May</option>
+            <option value="06">June</option>
+            <option value="07">July</option>
+            <option value="08">August</option>
+            <option value="09">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+          </select>
+          <select name="dob_year" id="dob_year" required>
+            <option value="">Year</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+            <option value="2009">2009</option>
+        </td>
+      </tr>
+      <tr height="30px">
+        <td>
+          <label for="email"><b>Email Id</b></label>
+        </td>
+        <td>&nbsp;&nbsp; <input type="text" name="email" id="email" placeholder="programmerhadeed@gmail.com" required />
+        </td>
+      </tr>
+
+      <tr height="30px">
+        <td>
+          <label for="tel"><b>Mobile Number</b></label>
+        </td>
+        <td>&nbsp;&nbsp; <input type="tel" id="tel" name="tel" placeholder="3322965814" pattern="\d{10}"
+            title="Please enter a 10-digit number" required /> (10 Digits Number)</td>
+      </tr>
+
+      <tr height="30px">
+        <td>
+          <label><b>Gender</b></label>
+        </td>
+        <td>&nbsp;&nbsp;
+          <input type="radio" name="gender" id="male" checked />
+          <label for="male" id="male">Male</label>
+          <input type="radio" name="gender" id="female" />
+          <label for="female" id="female">Female</label>
+        </td>
+      </tr>
+
+      <tr height="30px">
+        <td>
+          <label for="address"><b>Address</b></label>
+        </td>
+        <td>&nbsp;&nbsp; <textarea name="address" id="address" rows="4" cols="30" required></textarea></td>
+      </tr>
+
+      <tr height="30px">
+        <td>
+          <label for="City"><b>City</b></label>
+        </td>
+        <td>&nbsp;&nbsp; <input type="text" name="city" id="city" placeholder="karachi" maxlength="30" /> (max 30
+          characters from a-z and
+          A-Z)</td>
+      </tr>
+
+
+      <tr height="30px">
+        <td>
+          <label for="pcode"><b>Pin Code</b></label>
+        </td>
+        <td>&nbsp;&nbsp; <input type="tel" name="pcode" id="pcode" placeholder="688422" pattern="\d*" maxlength="6" />
+          (6 Digits Number)</td>
+      </tr>
+
+      <tr height="30px">
+        <td>
+          <label for="state"><b>State</b></label>
+        </td>
+        <td>&nbsp;&nbsp; <input type="text" name="state" id="state" placeholder="Sindh" maxlength="30" required /> (max
+          30 characters from a-z and
+          A-Z)</td>
+      </tr>
+
+      <tr height="30px">
+        <td>
+          <label for="country"><b>Country</b></label>
+        </td>
+        <td>&nbsp;&nbsp; <input type="text" name="country" id="country" placeholder="Pakistan" required /></td>
+      </tr>
+
+
+      <tr height="30px">
+        <td>
+          <label for="hobbies"><b>Hobbies</b></label>
+        </td>
+        <td>
+          &nbsp;&nbsp;
+          <input type="checkbox" name="hobbies" id="painting" />
+          <label for="painting">Painting</label>
+          <input type="checkbox" name="hobbies" id="cooking" />
+          <label for="cooking">Cooking</label>
+          <input type="checkbox" name="hobbies" id="gaming" />
+          <label for="gaming">Gaming</label>
+          <input type="checkbox" name="hobbies" id="swimming" />
+          <label for="swimming">Swimming</label>
+          <br> &nbsp;&nbsp;
+          <input type="checkbox" name="other" id="other">
+          <label for="other">Other</label>
+          <input type="text" name="other" id="other" placeholder="Reading">
+        </td>
+      </tr>
+
+      <tr height="30px"></tr>
+      <td>
+        <label> <b>Qualification:</b></label><br>
+      </td>
+      <td>
+        &nbsp;&nbsp;
+        <table style="border: 1px solid black;">
+          <tr height="30px">
+            <th>S.No.</th>
+            <th>Examination</th>
+            <th>Board</th>
+            <th>Percentage</th>
+            <th>Year of Passing</th>
+          </tr>
+          <tr>
+            <th>1</th>
+            <th>Class X</th>
+            <th><input type="text" name="board_x" placeholder="BSEK" required></th>
+            <th><input type="text" name="percentage_x" maxlength="10" placeholder="77%" required></th>
+            <th><input type="text" name="year_x" placeholder="2023" required></th>
+          </tr>
+          <tr>
+            <th>2</th>
+            <th>Class XII</th>
+            <th><input type="text" name="board_xii" placeholder="BIEK" required></th>
+            <th><input type="text" name="percentage_xii" maxlength="10" placeholder="75%" required></th>
+            <th><input type="text" name="year_xii" placeholder="2025" required></th>
+          </tr>
+          <tr>
+            <th>3</th>
+            <th>Graduation</th>
+            <th><input type="text" name="board_graduation" placeholder="" required></th>
+            <th><input type="text" name="percentage_graduation" maxlength="10" placeholder="" required></th>
+            <th><input type="text" name="year_graduation" placeholder="" required></th>
+          </tr>
+          <tr>
+            <th>4</th>
+            <th>Masters</th>
+            <th><input type="text" name="board_masters" placeholder="" required></th>
+            <th><input type="text" name="percentage_masters" placeholder="" required></th>
+            <th><input type="text" name="year_masters" placeholder="" required></th>
+          </tr>
+          <tr>
+            <th></th>
+            <th></th>
+            <th> (10 char Max) </th>
+            <th> (Upto 2 deciimal) </th>
+          </tr>
+        </table>
+      </td>
+      </tr>
+
+      <tr height="30px"></tr>
+
+      <tr height="30px">
+        <td>
+          <label for="hobbies"><b>Courses <br>Applied For</b></label>
+        </td>
+        <td>
+          &nbsp;&nbsp;
+          <input type="radio" name="courses" id="BA" />
+          <label for="BA">BA</label>
+          <input type="radio" name="courses" id="BSC" />
+          <label for="BSC">BSC</label>
+          <input type="radio" name="courses" id="BCom" />
+          <label for="BCom">BCom</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td>
+          <center>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </center>
+
+        </td>
+      </tr>
+    </form>
+  </table>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h1 ,a{
+    text-align: center;
+    font-size: 29px;
+    color: rgb(0, 204, 255);
+    text-decoration: none;
+    margin-top: 0px;
+}
+
+table {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 auto;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid rgb(35, 20, 255); */
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.empty {
+    border: none;
+    outline: none;
+}
+
+.color1{
+    color: rgb(47, 236, 47);
+    border: 2px solid rgb(47, 236, 47);
+}
+
+.color2{
+    color: rgb(71, 59, 248);
+    border: 2px solid rgb(71, 59, 248);
+}
+
+.color3{
+    color: rgb(255, 174, 0);
+    border: 2px solid rgb(255, 174, 0);
+}
+
+.color4{
+    color: rgb(251, 255, 0);
+    border: 2px solid rgb(251, 255, 0);
+}
+
+.color5{
+    color:rgb(0, 255, 179);
+    border: 2px solid rgb(0, 255, 179);
+}
+
+.color6{
+    color: rgb(0, 255, 221);
+    border: 2px solid rgb(0, 255, 221);
+}   
+
+.color7{
+    color: rgb(245, 236, 227);
+    border: 2px solid rgb(245, 236, 227);
+}
+
+.color8{
+    color: tomato;
+    border: 2px solid tomato;
+}
+
+.color9{
+    color: grey;
+    border: 2px solid grey;
+}
+
+.color10{
+    color: rgb(255, 0, 179);
+    border: 2px solid rgb(255, 0, 179);
+}
+
+.color11{
+    color: rgb(195, 0, 255);
+    border: 2px solid rgb(195, 0, 255);
+}
