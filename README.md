@@ -12,8 +12,8 @@
         <section id="html-assignments">
             <h2>HTML Assignments</h2>
             <ul>
-                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/assignment_1/index.html">assignment 1:</a></li>
-                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/assignment_2/index.html">assignment 2:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/assignment_1/index.html">Assignment 1:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/assignment_2/index.html">Assignment 2:</a></li>
                 <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/assignment_3/index.html">Assignment 3:</a></li>
                 <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/assignment_4/index.html">Assignment 4:</a></li>
                 <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/assignment_5/index.html">Assignment 5:</a></li>
