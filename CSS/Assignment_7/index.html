@@ -7,10 +7,226 @@
     <title>Roberto - Hotel & Resort</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
 <body>
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <span><i-lucide name="phone"></i-lucide> (123) 456-789-1230</span>
+                    <span><i-lucide name="mail"></i-lucide> info.colorlib@gmail.com</span>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i-lucide name="facebook"></i-lucide></a>
+                    <a href="#"><i-lucide name="twitter"></i-lucide></a>
+                    <a href="#"><i-lucide name="link"></i-lucide></a>
+                    <a href="#"><i-lucide name="instagram"></i-lucide></a>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <div class="logo"><span>R</span>oberto</div>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"><i-lucide name="search"></i-lucide></a></li>
+                </ul>
+                <button class="book-now">Book Now →</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>HOTEL & RESORT</h2>
+                <h1>Welcome To Roberto</h1>
+                <button>Discover Now</button>
+            </div>
+        </section>
+
+        <section class="booking-form">
+            <div class="container">
+                <div class="form-group">
+                    <label>Check In</label>
+                    <input type="date" placeholder="mm/dd/yyyy">
+                </div>
+                <div class="form-group">
+                    <label>Check Out</label>
+                    <input type="date" placeholder="mm/dd/yyyy">
+                </div>
+                <div class="form-group">
+                    <label>Room</label>
+                    <select>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Adults</label>
+                    <select>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Children</label>
+                    <select>
+                        <option>00</option>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                    </select>
+                </div>
+                <button>Check Availability</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Add this section after the hero section in the previous HTML -->
+    <section class="about-us">
+        <div class="container">
+            <div class="about-content">
+                <span class="subtitle">ABOUT US</span>
+                <h2>Welcome To <br>Roberto Hotel Luxury</h2>
+                <p>With over 340 hotels worldwide, NH Hotel Group offers a wide variety of hotels catering for a perfect
+                    stay no matter where your destination.</p>
+
+                <div class="manager">
+                    <p>Manager: <span class="name">Michen Taylor</span></p>
+                </div>
+            </div>
+
+            <div class="about-images">
+                <div class="image-grid">
+                    <img src="https://preview.colorlib.com/theme/roberto/img/bg-img/5.jpg" alt="Hotel View"
+                        class="grid-img">
+                    <img src="https://preview.colorlib.com/theme/roberto/img/bg-img/6.jpg" alt="Pool View"
+                        class="grid-img">
+                    <img src="https://preview.colorlib.com/theme/roberto/img/bg-img/7.jpg" alt="Water Activity"
+                        class="grid-img">
+                </div>
+            </div>
+        </div>
+
+        <section class="services">
+            <div class="container">
+                <div class="service-cards">
+                    <div class="service-card">
+                        <div class="icon">
+                            <i class="fas fa-steering-wheel"></i>
+                        </div>
+                        <h3>Transportion</h3>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Reiseservice</h3>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="icon">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                        <h3>Spa Relaxtion</h3>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="icon">
+                            <i class="fas fa-wine-glass-alt"></i>
+                        </div>
+                        <h3>Restaurant</h3>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="icon">
+                            <i class="fas fa-steering-wheel"></i>
+                        </div>
+                        <h3>Bar & Drink</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+    </section>
+
+    <!-- Add these sections after the previous code -->
+
+    <!-- Room Showcase Section -->
+    <section class="room-showcase">
+        <div class="room-container">
+            <div class="room-image">
+                <img src="https://preview.colorlib.com/theme/roberto/img/bg-img/48.jpg" alt="King Room">
+            </div>
+            <div class="room-details">
+                <h2>Best King Room</h2>
+                <div class="price">
+                    <span class="amount">125$</span>
+                    <span class="duration">/ Day</span>
+                </div>
+                <div class="specifications">
+                    <div class="spec-item">
+                        <span class="label">Size</span>
+                        <span class="value">: 30 ft</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="label">Capacity</span>
+                        <span class="value">: Max persion 5</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="label">Bed</span>
+                        <span class="value">: King Beds</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="label">Services</span>
+                        <span class="value">: Wifi, Television, Bathroom</span>
+                    </div>
+                </div>
+                <button class="view-details">View Details</button>
+                <div class="navigation-buttons">
+                    <button class="prev">Previous</button>
+                    <button class="next">Next →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <span class="section-label">TESTIMONIALS</span>
+            <h2>Our Guests Love Us</h2>
+            <div class="testimonial-content">
+                <div class="testimonial-image">
+                    <img src="https://preview.colorlib.com/theme/roberto/img/bg-img/49.jpg" alt="Guest">
+                </div>
+                <p class="testimonial-text">
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus delectus facilis
+                    molesties, error vitae"
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
 </body>
 
 </html>
