@@ -1,0 +1,1080 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 251, 245);
+    transition: background-color 0.5s ease;
+    /* Smooth background transition */
+}
+
+/* Main Div */
+.main-div {
+    height: 100vh;
+    background-color: rgb(146, 103, 245);
+    background-image: url(Images/svg-image-1.svg);
+    background-attachment: fixed;
+    background-size: 660px 660px;
+    background-repeat: no-repeat;
+    background-position: 620px 50px;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navigation styles */
+nav {
+    padding: 15px 0;
+    position: relative;
+    /* Position relative for z-index */
+    z-index: 10;
+    /* Ensure nav is above other content */
+}
+
+/* Navigation Content */
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 25px auto;
+}
+
+/* Logo */
+.logo {
+    color: aliceblue;
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+    /* Smooth transition for color */
+}
+
+.logo:hover {
+    color: #252525;
+    /* Change logo color on hover */
+}
+
+
+/* Navigation Links */
+.nav-links a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 16px;
+    position: relative;
+    transition: color 0.3s, padding 0.3s, transform 0.3s;
+    /* Added transform transition */
+}
+
+/* Hover Effect for Links */
+.nav-links a:hover {
+    color: white;
+    border-bottom: 3px solid #000000;
+    padding-bottom: 5px;
+    /* Slight padding for hover effect */
+    transform: translateY(-2px);
+    /* Slight upward movement on hover */
+}
+
+/* Hover Effect for Links */
+.nav-links a:hover {
+    color: white;
+    border-bottom: 3px solid #000000;
+    padding-bottom: 5px;
+    /* Slight padding for hover effect */
+    transform: translateY(-2px);
+    /* Slight upward movement on hover */
+}
+
+/* Hero section styles */
+.hero {
+    margin-top: 60px;
+    margin-left: 30px;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    animation: fadeIn 1s;
+    /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: aliceblue;
+    font-size: 14px;
+    width: 65%;
+    margin-bottom: 40px;
+    opacity: 0.8;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 160px;
+}
+
+.cta-button {
+    padding: 12px 24px;
+    border-radius: 50px 50px 50px 0px;
+    /* Rounded corners */
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    /* Add transform transition */
+}
+
+.cta-primary {
+    background-color: #3498db;
+    color: white;
+}
+
+.cta-primary:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+    /* Scale effect on hover */
+}
+
+.cta-secondary {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.cta-secondary:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+    /* Scale effect on hover */
+}
+
+.social-links {
+    margin-top: 120px;
+    z-index: 10;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+/* Services Section */
+#services-sec {
+    height: 120vh;
+    background-color: rgb(255, 251, 245);
+}
+
+#services {
+    width: 75%;
+    margin: 15vh auto;
+}
+
+.up {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 190px 190px;
+    gap: 10px;
+    color: black;
+}
+
+.up>.first {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-content: center;
+}
+
+.first h4 {
+    color: #1a62e9;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.first h2 {
+    color: #0f1116;
+    margin-top: 10px;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+.first p {
+    color: #666666;
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+#btn-servies {
+    color: white;
+    margin-top: 30px;
+    background-color: #1a62e9;
+    border: none;
+    border-radius: 50px 50px 50px 0px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, transform 0.3s;
+    /* Add transform transition */
+}
+
+#btn-servies:hover {
+    border-radius: 0px 50px 50px 50px;
+    color: white;
+    background-color: 1a62e9;
+    transform: scale(1.05);
+    /* Scale effect on hover */
+}
+
+.up .card {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    padding: 3px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Transition for card */
+}
+
+.up .card:hover {
+    transform: translateY(-10px) scale(1.02);
+    /* Scale and lift effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #3498db;
+    color: white;
+}
+
+.up .card>h3 {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.up .card>p {
+    margin-top: 7px;
+    font-size: 12px;
+    color: rgb(207, 191, 191);
+}
+
+.service-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.down {
+    margin: 130px auto;
+    width: 90%;
+    color: #000000;
+}
+
+.counter-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20vh;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pic-f {
+    background-image: url(Images/pexels-philippe-forestier-745288038-29565364.jpg);
+    background-size: contain;
+}
+
+.counter {
+    padding-top: 30px;
+}
+
+.counter>p {
+    margin-top: 15px;
+}
+
+/* About Us */
+#about-us-sec {
+    height: 100vh;
+}
+
+#about-us {
+    width: 75%;
+    margin: 10vh auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    grid-template-rows: 50vh;
+}
+
+.right>h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #3498db;
+    letter-spacing: 0.8px;
+}
+
+.right>h2 {
+    font-size: 36px;
+    font-weight: 200;
+    color: #1f1818;
+    letter-spacing: 0.5px;
+    line-height: 55px;
+    margin-top: 8px;
+}
+
+.right>p {
+    font-size: 16px;
+    color: #666666;
+    margin-top: 20px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+}
+
+.left {
+    height: 80vh;
+    background-image: url(/Images/about.svg);
+    background-position: 150px 85px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+}
+
+/* Our Team */
+#our-team-sec {
+    height: 120vh;
+}
+
+#our-team-sec .heading {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#our-team-sec .heading h4 {
+    color: #1a62e9;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+#our-team-sec .heading h2 {
+    font-size: 36px;
+    font-weight: 200;
+    color: #1f1818;
+    letter-spacing: 0.5px;
+    line-height: 55px;
+    margin-top: 10px;
+}
+
+#our-team-sec .heading p {
+    font-size: 14px;
+    color: #666666;
+    margin: 20px auto;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    width: 55%;
+}
+
+#team-grid {
+    margin: 50px 50px;
+    display: flex;
+    text-align: center;
+}
+
+#team-grid .cards {
+    margin-left: 30px;
+}
+
+#team-grid .cards h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1f1818;
+}
+
+#team-grid .cards p {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 200;
+    color: #967d7d;
+}
+
+/* Reviews Section */
+#reviews-sec {
+    height: 120vh;
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+}
+
+#reviews-sec .heading {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#reviews-sec .heading h4 {
+    color: #1a62e9;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+#reviews-sec .heading h2 {
+    font-size: 36px;
+    font-weight: 200;
+    color: #1f1818;
+    letter-spacing: 0.5px;
+    line-height: 55px;
+    margin-top: 10px;
+}
+
+#reviews-sec .heading p {
+    font-size: 14px;
+    color: #666666;
+    margin: 20px auto;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    width: 55%;
+}
+
+.testimonials-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    position: relative;
+    transition: transform 0.3s;
+    /* Add transition for scaling */
+}
+
+.testimonial-card:hover {
+    transform: scale(1.05);
+    /* Scale effect on hover */
+}
+
+.quote-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #00bfff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.quote-icon::before {
+    content: '"';
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.testimonial-text {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-name {
+    color: #333;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+}
+
+.profile-title {
+    color: #00bfff;
+    font-size: 0.9rem;
+}
+
+/* Choose Us */
+#choose-us-sec {
+    height: 70vh;
+    background-color: rgb(149, 101, 226);
+    color: white;
+}
+
+#choose-us-sec .heading {
+    padding-top: 100px;
+    text-align: center;
+}
+
+#choose-us-sec .heading h4 {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+#choose-us-sec .heading h2 {
+    font-size: 36px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    line-height: 55px;
+    margin-top: 6px;
+}
+
+#choose-us-sec .heading p {
+    font-size: 14px;
+    margin: 10px auto;
+    line-height: 18px;
+    letter-spacing: 0.5 px;
+    width: 55%;
+}
+
+.choose-us-grid {
+    width: 70%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 600px;
+    color: #000000;
+}
+
+.choose-us-card {
+    text-align: center;
+    align-content: center;
+    width: 200px;
+    height: 270px;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #333;
+    background-color: white;
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Transition for card */
+}
+
+.choose-us-card:hover {
+    transform: translateY(-5px) scale(1.03);
+    /* Scale and lift effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #3498db;
+    color: white;
+}
+
+.choose-us-card img {
+    height: 60px;
+    width: 60px;
+}
+
+.choose-us-card h3 {
+    margin-top: 8px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.choose-us-card p {
+    margin-top: 13px;
+    font-size: 13px;
+    color: #666;
+    font-weight: 600;
+    padding: 4px;
+}
+
+.choose-us-mini {
+    height: 10vh;
+    color: #333;
+    background-color: #666;
+    background-color: transparent;
+}
+
+.choose-us-mini p {
+    font-size: 13px;
+    width: 55%;
+    text-align: center;
+    margin: 22vh auto;
+}
+
+/* Portfolio */
+#portfolio {
+    height: 120vh;
+}
+
+#portfolio .heading {
+    padding-top: 100px;
+    text-align: center;
+}
+
+#portfolio .heading h4 {
+    color: #3498db;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+#portfolio .heading h2 {
+    font-size: 36px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    line-height: 55px;
+    margin-top: 3px;
+}
+
+#portfolio .heading p {
+    font-size: 14px;
+    margin: 8px auto;
+    color: #333;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    width: 50%;
+}
+
+#portfolio .Portfolio-grid {
+    width: 93%;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 360px 150px;
+    margin: 25px auto;
+}
+
+.Portfolio-grid .img1 {
+    background-image: url(/Images/Screenshot\ 2024-11-30\ 135740.png);
+    background-size: cover;
+    width: 100%;
+    height: 280px;
+}
+
+.Portfolio-grid h4 {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #666;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.Portfolio-grid h3 {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #333;
+    font-weight: 600;
+    padding: 4px;
+}
+
+.Portfolio-grid .cards {
+    background-color: white;
+    transition: transform 0.3s, background-color 0.3s;
+    /* Transition for card */
+}
+
+.Portfolio-grid .cards:hover {
+    transform: scale(1.05);
+    /* Scale effect on hover */
+    background-color: rgb(135, 166, 250);
+}
+
+.link a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.link>a:hover {
+    color: rgb(34, 68, 221);
+    font-size: 18px;
+}
+
+.Portfolio-grid .link {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+    margin: 15px auto;
+}
+
+hr {
+    height: 3px;
+    width: 100%;
+    color: #666;
+}
+
+/* Pricing */
+#pricing {
+    height: 120vh;
+}
+
+#pricing .heading {
+    padding-top: 130px;
+    text-align: center;
+}
+
+#pricing .heading h4 {
+    color: #3498db;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+#pricing .heading h2 {
+    font-size: 36px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    line-height: 55px;
+    margin-top: 3px;
+}
+
+#pricing .heading p {
+    font-size: 14px;
+    margin: 8px auto;
+    color: #333;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    width: 50%;
+}
+
+#pricing .pricing-grid {
+    margin: 50px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: 500px;
+    gap: 10px;
+}
+
+.pricing-grid .cards {
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Transition for card */
+}
+
+/* .pricing-grid .cards:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+} */
+
+.pricing-grid .cards h2 {
+    font-size: 30px;
+    color: #00bfff;
+    margin-bottom: 20px;
+}
+
+.pricing-grid .cards h4 {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.pricing-grid .cards ul {
+    font-size: 18px;
+    line-height: 33px;
+    list-style-type: none;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.pricing-grid .buy-now {
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px 50px 50px 0px;
+    background-color: #00bfff;
+    transition: background-color 0.3s, transform 0.3s;
+    /* Add transform transition */
+}
+
+.buy-now:hover {
+    border-radius: 0px 50px 50px 50px;
+    background-color: transparent;
+    color: #ffffff;
+    background-color: #00bfff;
+    transform: scale(1.05);
+    /* Scale effect on hover */
+}
+
+/* Blog */
+#blog {
+    height: 120vh;
+}
+
+#blog .heading {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#blog .heading h4 {
+    color: #3498db;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+#blog .heading h2 {
+    font-size: 36px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    line-height: 55px;
+    margin-top: 3px;
+}
+
+#blog .heading p {
+    font-size: 12px;
+    margin: 8px auto;
+    color: #333;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    width: 50%;
+}
+
+#blog .blog-grid {
+    width: 65%;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 275px;
+    margin: 35px auto;
+}
+
+.blog-grid .img1 {
+    background-image: url(/Images/blog.png);
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+}
+
+.blog-grid h2 {
+    margin-top: 12px;
+    line-height: 22px;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+    padding: 4px;
+}
+
+#blog-h2:hover {
+    color: hsl(180, 100%, 50%);
+}
+
+.blog-grid h4 {
+    margin-top: 8px;
+    font-size: 10px;
+    color: #666;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.blog-grid h4 span {
+    color: #3498db;
+}
+
+.blog-grid .cards {
+    background-color: white;
+    transition: transform 0.3s, background-color 0.3s;
+    /* Transition for card */
+}
+
+.blog-grid .cards:hover {
+    transform: scale(1.05);
+    /* Scale effect on hover */
+    background-color: rgb(135, 166, 250);
+}
+
+/* Newsletter */
+.newsletter {
+    background-color: #0066ff;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.newsletter h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+}
+
+.newsletter p {
+    margin-bottom: 1rem;
+    opacity: 0.9;
+}
+
+.newsletter input {
+    padding: 0.5rem;
+    width: 300px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    outline: none;
+    transition: border-color 0.3s;
+    /* Transition for input */
+}
+
+.newsletter input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Footer */
+.footer-content {
+    background-color: #f8f9ff;
+    padding: 4rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.brand h3 {
+    color: #00c3ff;
+    margin-bottom: 1rem;
+}
+
+.brand p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.social-links1 {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-links1 a {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.footer-section h4 {
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-links a {
+    color: #666;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+    /* Transition for footer links */
+}
+
+.footer-links a:hover {
+    color: #3498db;
+    /* Change color on hover */
+}
+
+.recent-post {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.post-img {
+    width: 50px;
+    height: 50px;
+    background-image: url(/Images/pexels-philippe-forestier-745288038-29565364.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.post-info {
+    flex: 1;
+}
+
+.post-date {
+    color: #999;
+    font-size: 0.8rem;
+}
+
+.post-title {
+    color: #666;
+    text-decoration: none;
+}
+
+.contact-info {
+    color: #666;
+}
+
+.contact-info p {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Copyright */
+.copyright {
+    background-color: #7c4dff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    height: 80px;
+    font-size: 13px;
+}
+
+.copyright a {
+    color: #00c3ff;
+    text-decoration: none;
+}
