@@ -12,13 +12,13 @@
         <section id="html-assignments">
             <h2>HTML Assignments</h2>
             <ul>
-                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_assignments/HTML/assignment_1/index.html">assignment 1:</a></li>
-                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_assignments/HTML/assignment_2/index.html">assignment 2:</a></li>
-                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_assignments/HTML/Assignment_3/index.html">Assignment 3:</a></li>
-                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_assignments/HTML/Assignment_4/index.html">Assignment 4:</a></li>
-                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_assignments/HTML/Assignment_5/index.html">Assignment 5:</a></li>
-                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_assignments/HTML/Assignment_6/index.html">Assignment 6:</a></li>
-                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_assignments/HTML/Assignment_7/index.html">Assignment 6:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/assignment_1/index.html">assignment 1:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/assignment_2/index.html">assignment 2:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/assignment_3/index.html">Assignment 3:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/assignment_4/index.html">Assignment 4:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/assignment_5/index.html">Assignment 5:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/assignment_6/index.html">Assignment 6:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/assignment_7/index.html">Assignment 6:</a></li>
             </ul>
         </section>
         <section id="css-assignments">
