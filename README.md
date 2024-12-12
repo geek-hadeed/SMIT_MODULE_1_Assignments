@@ -12,23 +12,25 @@
         <section id="html-assignments">
             <h2>HTML Assignments</h2>
             <ul>
-                <li><a href="https://github.com/geek-hadeed/smit-assignments/tree/main/html/assignment-1">Assignment 1:</a></li>
-                <li><a href="https://github.com/geek-hadeed/smit-assignments/tree/main/html/assignment-2">Assignment 2:</a></li>
-                <li><a href="https://github.com/geek-hadeed/smit-assignments/tree/main/html/assignment-3">Assignment 3:</a></li>
-                <li><a href="https://github.com/geek-hadeed/smit-assignments/tree/main/html/assignment-1">Assignment 4:</a></li>
-                <li><a href="https://github.com/geek-hadeed/smit-assignments/tree/main/html/assignment-2">Assignment 5:</a></li>
-                <li><a href="https://github.com/geek-hadeed/smit-assignments/tree/main/html/assignment-3">Assignment 6:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/Assignment_1/index.html">Assignment 1:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/Assignment_2/index.html">Assignment 2:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/Assignment_3/index.html">Assignment 3:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/Assignment_4/index.html">Assignment 4:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/Assignment_5/index.html">Assignment 5:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/Assignment_6/index.html">Assignment 6:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/HTML/Assignment_7/index.html">Assignment 6:</a></li>
             </ul>
         </section>
         <section id="css-assignments">
             <h2>CSS Assignments</h2>
             <ul>
-                <li><a href="https://github.com/geek-hadeed/smit-assignments/tree/main/css/assignment-1">Assignment 1:</a></li>
-                <li><a href="https://github.com/geek-hadeed/smit-assignments/tree/main/css/assignment-2">Assignment 2:</a></li>
-                <li><a href="https://github.com/geek-hadeed/smit-assignments/tree/main/css/assignment-3">Assignment 3:</a></li>
-                <li><a href="https://github.com/geek-hadeed/smit-assignments/tree/main/css/assignment-1">Assignment 4:</a></li>
-                <li><a href="https://github.com/geek-hadeed/smit-assignments/tree/main/css/assignment-2">Assignment 5:</a></li>
-                <li><a href="https://github.com/geek-hadeed/smit-assignments/tree/main/css/assignment-3">Assignment 6:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/CSS/Assignment_1/index.html">Assignment 1:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/CSS/Assignment_2/index.html">Assignment 2:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/CSS/Assignment_3/index.html">Assignment 3:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/CSS/Assignment_4/index.html">Assignment 4:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/CSS/Assignment_5/index.html">Assignment 5:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/CSS/Assignment_6/index.html">Assignment 6:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/CSS/Assignment_7/index.html">Assignment 6:</a></li>
             </ul>
         </section>
     </main>
