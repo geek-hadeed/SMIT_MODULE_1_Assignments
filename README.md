@@ -30,7 +30,7 @@
                 <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/CSS/Assignment_4/index.html">Assignment 4:</a></li>
                 <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/CSS/Assignment_5/index.html">Assignment 5:</a></li>
                 <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/CSS/Assignment_6/index.html">Assignment 6:</a></li>
-                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/CSS/Assignment_7/index.html">Assignment 6:</a></li>
+                <li><a href="https://geek-hadeed.github.io/SMIT_MODULE_1_Assignments/CSS/Assignment_7/index.html">Assignment 7:</a></li>
             </ul>
         </section>
     </main>
